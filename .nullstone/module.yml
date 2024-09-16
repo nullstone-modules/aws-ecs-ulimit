@@ -1,0 +1,14 @@
+org_name: nullstone
+name: aws-ecs-ulimit
+friendly_name: ECS/Fargate ulimit
+description: Modify a ulimit resource on the main container for an ECS/Fargate app
+category: capability
+subcategory: sidecars
+provider_types:
+    - aws
+platform: ecs
+subplatform: '*'
+type: ""
+appCategories:
+    - container
+is_public: true
