@@ -19,13 +19,13 @@ EOF
 variable "soft_limit" {
   type        = number
   description = <<EOF
-The hard limit for the ulimit type. The value can be specified in bytes, seconds, or as a count, depending on the type of the ulimit.
+The soft limit for the ulimit type. The value can be specified in bytes, seconds, or as a count, depending on the type of the ulimit.
 EOF
 }
 
 variable "hard_limit" {
   type        = number
   description = <<EOF
-The soft limit for the ulimit type. The value can be specified in bytes, seconds, or as a count, depending on the type of the ulimit.
+The hard limit for the ulimit type. The value can be specified in bytes, seconds, or as a count, depending on the type of the ulimit.
 EOF
 }
